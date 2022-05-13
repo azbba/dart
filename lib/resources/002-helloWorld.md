@@ -1,8 +1,8 @@
 # Dart hello world
 
-The**main()**function:  
+The **main()** function:  
 Every app must have a top-level main() function, which serves as the entrypoint to the app.  
-the**main()**function returns void and has an optional List`<String>` parameter for arguments.  
+the **main()** function returns void and has an optional List`<String>` parameter for arguments.  
 ```dart
 void main(List args){ 
     // Dart entrypoint...
