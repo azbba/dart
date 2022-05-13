@@ -23,7 +23,7 @@ print(name.runtimeType); // String
 print(name); // AzBba
 ```
 
-### 2- int:
+### 2- Int:
 
 Integers are used to store whole numbers.  
 An integer data type is used to represent 64 bit non-decimal number between -263 to 263 – 1.  
@@ -38,7 +38,7 @@ print(age.runtimeType); // int
 print(age); // 30
 ```
 
-### 3- double:
+### 3- Double:
 
 Double is used to represent a 64-bit (double-precision) floating-point numbers or numbers with larger decimal points.  
 Double can be declared using `double` keyword.  
@@ -51,7 +51,7 @@ print(prix.runtimeType); // double
 print(prix); // 15.86
 ```
 
-### 4- bool (Boolean)
+### 4- Bool (Boolean)
 
 The Boolean data type is used to represent the truth values.  
 which can be either `true` or `false`.  
@@ -66,7 +66,7 @@ print(appStatus.runtimeType); // bool
 print(appStatus); // true
 ```
 
-### 5- list:
+### 5- List:
 
 List data type is used to represent a collection of objects.  
 A List is an ordered group of objects.  
