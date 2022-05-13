@@ -12,8 +12,12 @@ void main(List args){
 ## Print hello world
 
 To display output in dart we use print function.  
-**Syntax:**  
-``print( Object object );``  
+**Syntax:** 
+
+```dart 
+print( Object object ); 
+```
+
 **Description:**  
 Prints a string representation of the object to the console.  
 Every statement in dart must end with semicolon (;)
@@ -25,4 +29,8 @@ void main(List args){
 ```
 
 **Output:**  
-``Hello world``
+
+```dart
+    // Hello world
+```
+
