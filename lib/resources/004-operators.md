@@ -49,5 +49,5 @@ Logical operators are used to combine expressions with conditional statements us
 | Operator  | Description                                 | Example                    |
 |-----------|---------------------------------------------|----------------------------|
 | `&&`      | Logical AND (**Return true if all**)        | `5 == 5 && 5 > 3; // true` |
-| `||`      | Logical OR (**return true if any is true**) | `5 == 5 || 1 > 3; // true` |
+| `||`      | Logical OR (**Return true if any is true**) | `5 == 5 && 1 > 3; // true` |
 | `!`       | Logical NOT                                 | `10 != 10; // false`  	   |
