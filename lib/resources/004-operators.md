@@ -35,9 +35,19 @@ Comparison Operators are used evaluate a comparison between two operands.
 
 | Operator  | Description              | Example              |
 |-----------|--------------------------|----------------------|
-| >         |  Greater than            | `5 > 10; // false`   |
+| >         | Greater than             | `5 > 10; // false`   |
 | <         | Less than                | `5 < 10; // true`    |
 | >=        | Greater than or equal to | `10 >= 10; // true`  |
 | <=        | Less than or equal to    | `10 <= 10; // true`  |
 | ==        | Is equal to              | `10 == 5; // false`  |
 | !=        | Is not equal to          | `10 != 5; // true`   |
+
+## Logical operators
+
+Logical operators are used to combine expressions with conditional statements using logical (AND,OR,NOT) operators.
+
+| Operator  | Description                                 | Example                    |
+|-----------|---------------------------------------------|----------------------------|
+| &&        | Logical AND (**Return true if all**)        | `5 == 5 && 5 > 3; // true` |
+| ||        | Logical OR (**return true if any is true**) | `5 == 5 || 1 > 3; // true` |
+| !         | Logical NOT                                 | `10 != 10; // false`  	   |
