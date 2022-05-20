@@ -20,11 +20,24 @@ Assignment operators are used to assign value to a variable.
 
 Arithmetic Operators are used to perform arithmetic operations.
 
-| Operator  | Description                       								   | Example               |
-|-----------|----------------------------------------------------------------------|-----------------------|
-| +         | Addition                                                             | `5 + 5; // 5`         |
-| -         | Subtraction         		                                           | `5 - 5; // 0`         |
-| `*`       | Multiply                                                             | `5 * 5; // 25`        |
-| /         | Division                                                             | `8 / 2; // 4`         |
-| ~/        | Truncating division operator.(**Division and return integer value**) | `8 ~/ 3; // 2.66 = 2` |
-| %=        | Modulus                                                              | `8 % 4: // 2 = 0`     |
+| Operator  | Description                       								      | Example               |
+|-----------|-------------------------------------------------------------------------|-----------------------|
+| +         | Addition                                                                | `5 + 5; // 5`         |
+| -         | Subtraction         		                                              | `5 - 5; // 0`         |
+| *         | Multiply                                                                | `5 * 5; // 25`        |
+| /         | Division                                                                | `8 / 2; // 4`         |
+| ~/        | Truncating division operator.(**Division and return an integer value**) | `8 ~/ 3; // 2.66 = 2` |
+| %=        | Modulus                                                                 | `8 % 4: // 2 = 0`     |
+
+## Comparison Operators
+
+Comparison Operators are used evaluate a comparison between two operands.
+
+| Operator  | Description              | Example              |
+|-----------|--------------------------|----------------------|
+| >         |  Greater than            | `5 > 10; // false`   |
+| <         | Less than                | `5 < 10; // true`    |
+| >=        | Greater than or equal to | `10 >= 10; // true`  |
+| <=        | Less than or equal to    | `10 <= 10; // true`  |
+| ==        | Is equal to              | `10 == 5; // false`  |
+| !=        | Is not equal to          | `10 != 5; // true`   |
